@@ -37,7 +37,7 @@ By pressing the "+" in the "Sources" section you can add different inputs:
 
 <img src="img/obs_add_camera.jpg">
 
-Add two "Video Capture Device" sources and select your two different web cameras as inputs for them. You can drag them around in the top window to lay them out as you wish. Double click the name of an input to bring up its settings. I like to lock the input source when things look good, to not accidentally mess it up later.
+Add two "Video Capture Device" sources and select your two different web cameras as inputs for them. You can drag them around in the top window to lay them out as you wish. Double click the name of an input to bring up its settings. I like to lock the input source (using the little padlock icon) when things look good, to not accidentally mess it up later.
 
 #### 3. The life counter
 
