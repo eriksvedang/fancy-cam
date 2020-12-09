@@ -65,7 +65,7 @@ You should now be able to select this camera as any other physical web camera (y
 
 ### Changing your life total
 
-When you take damage or gain life, just edit the text file! If you want keyboard shortcuts for this instead, I've made a [small C program](lifecounter.c) (only tested on macOS). But editing the file might actually require less key presses and be more convenient.
+When you take damage or gain life, just edit the text file! If you want keyboard shortcuts for this instead, I've made a [small C program](lifecounter.c) (only tested on macOS.) But editing the file might actually require less key presses and be more convenient.
 
 
 ### Final Thoughts
