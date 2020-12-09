@@ -14,7 +14,7 @@ Here's how the final setup will look:
 This setup requires **two** web cameras. Often your computer will have a built-in one, and your phone can act as an extra one using [Epoc Cam]() or similar apps. I personally use the front-facing camera of my desktop computer (an iMac), together with a [Logitech Streamcam](https://www.logitech.com/en-us/products/webcams/streamcam.960-001289.html).
 
 
-### Software
+### Required software
 
 1. [OBS](https://obsproject.com/)
 2. OBS virtual cam plugin [Windows](https://obsproject.com/forum/resources/obs-virtualcam.949/) / [MacOS](https://github.com/johnboiles/obs-mac-virtualcam)
