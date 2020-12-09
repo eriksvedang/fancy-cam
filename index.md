@@ -51,7 +51,7 @@ Now add a third source in OBS, but this time choose "Text":
 
 <img src="img/obs_final_scene.jpg">
 
-Double click the text to edit its settings. The most important thing is to set the "Text File" to the `life.txt` file you just created. Also choose a nice font, and maybe add some drop shadow to make the text stand out from the background better.
+Double click the text to edit its settings. The most important thing is to enable "Read from file" and set the "Text File" to the `life.txt` file you just created. Also choose a nice font, and maybe add some drop shadow to make the text stand out from the background better.
 
 <img src="img/obs_text_properties.jpg">
 
