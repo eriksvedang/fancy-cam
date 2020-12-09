@@ -22,4 +22,41 @@ First install OBS, and then the plugin. The text editor should already be instal
 
 ### Setup
 
-1. Start OBS
+#### 1. Start OBS
+
+If you haven't used the program before, it will look something like this:
+
+<img src="img/obs_empty.jpg">
+
+#### 2. Adding camera sources
+
+By pressing the "+" in the "Sources" section we can add different inputs that we want to composit together:
+
+<img src="img/obs_add_camera.jpg">
+
+You want to add two "Video Capture Device" sources and select your two different web cameras as inputs for them. You can the drag them around in the top window to lay them out as you wish. Double click on the name of an input to bring up its settings.
+
+#### 3. The life counter
+
+The life counter will be controlled by a file on your computer. Using a text editor, save a file named something like `life.txt` in a convenient location on your hard drive -- just remember where you put it! It should contain the contents "20" on its first line, like this:
+
+```text
+20
+```
+
+Now add a third source in OBS, but this time choose "Text":
+
+<img src="img/obs_final_scene.jpg">
+
+Double click to edit the settings. The important thing is to set the "Text File" to the `life.txt` file you just created. Also choose a nice font, and maybe add some drop shadow to make the text stand out from the background better.
+
+<img src="img/obs_text_properties.jpg">
+
+
+### Virtualization
+
+To make use of the video when playing, we need to make it appear as a webcam for whatever chat program we're using (Whereby, Zoom, etc).
+
+On Mac this is done (after installing the plugin) in the OBS menu bar, go to `Tools > Start Virtual Camera`.
+
+You should now be able to select this camera as any other physical web camera when playing.
