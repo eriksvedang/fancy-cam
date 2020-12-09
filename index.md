@@ -14,11 +14,11 @@ This setup requires **two** web cameras. Often your computer will have a built-i
 
 ### Software
 
-1. [OBS]()
-2. [OBS virtual cam plugin]()
+1. [OBS](https://obsproject.com/)
+2. OBS virtual cam plugin [Windows](https://obsproject.com/forum/resources/obs-virtualcam.949/) / [MacOS](https://github.com/johnboiles/obs-mac-virtualcam)
 3. A text editor (*Notepad* on Windows or *TextEdit* on macOS works well enough)
 
-First install OBS, and then the plugin. The text editor should already be installed on your OS.
+First install OBS, and then the plugin. The text editor should come with your operating system.
 
 ### Setup
 
@@ -55,8 +55,14 @@ Double click to edit the settings. The important thing is to set the "Text File"
 
 ### Virtualization
 
-To make use of the video when playing, we need to make it appear as a webcam for whatever chat program we're using (Whereby, Zoom, etc).
-
-On Mac this is done (after installing the plugin) in the OBS menu bar, go to `Tools > Start Virtual Camera`.
+To make use of the video when playing, we need to make it appear as a webcam for whatever chat program we're using (Whereby, Zoom, etc). This is done (after installing the plugin) in the OBS menu bar, go to `Tools > Start Virtual Camera`.
 
 You should now be able to select this camera as any other physical web camera when playing.
+
+### Changing your life total
+
+When you take damage or gain life, just edit the text file! If you want keyboard shortcuts for this instead, I've made a [small C program](lifecounter.c) (only tested on macOS). But editing the file might actually require less key presses...
+
+### Final Thoughts
+
+I hope this guide was useful to some of you! If you don't want to have this kind of complicated setup I totally understand that, but I think it's at least worth trying out. Hope to play with you soon!
